@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.main-container {
+  min-height: 100vh;
+  padding: 40px;
+  background-image: linear-gradient(#9ba9eb, #c3caea);
+}
+
+.app-logo {
+  width: 150px;
+  margin-bottom: 10px;
+}
+
+.data-collection-container {
+  background-color: #5763a5;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90vw;
+}
+
+.input-container {
+  background-color: #454f84;
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 600px;
+}
+
+.input-box {
+  background-color: #ffffff;
+  /* padding: 5px; */
+  border-radius: 5px;
+  margin-bottom: 25px;
+  width: 500px;
+}
+
+input {
+  font-weight: bold;
+  font-size: 18px;
+  height: 40px;
+  border: 0px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  border-left: 1px solid #000000;
+}
+
+.input-image {
+  width: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.password-manager-image {
+  width: 400px;
+}
+
+.add-button-container {
+  /* align-self: right; */
+  text-align: right;
+  margin-right: 20px;
+}
+
+.add-button {
+  color: #ffffff;
+  background-color: #0b69ff;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.password-display-container {
+  margin-top: 20px;
+  background-color: #5763a5;
+  /* display: flex;
+  justify-content: space-around;
+  align-items: center; */
+  padding: 30px;
+  border-radius: 10px;
+  width: 90vw;
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.count {
+  font-size: 16px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.checkbox-container {
+  display: flex;
+  /* font-size: 18px; */
+  /* padding: 10px; */
+  justify-content: right;
+}
+
+.checkbox-container > label {
+  margin: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.check-box {
+  width: 20px;
+}
